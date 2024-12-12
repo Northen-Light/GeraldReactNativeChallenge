@@ -35,7 +35,7 @@ Tab Navigator
      - Sign Out Screen
   - Contact Screen
 ```
-Each screen of the HomeRootStack has a DrawerMenu attached to it. The DrawerMenu is a reusable component
+Each screen of the HomeRootStack has a DrawerMenu attached to it. The DrawerMenu is a reusable component.
 
 Used typescript for the development of the application and code hierarchy is pretty simple
 and easy to understand. UI code lies in `src` folder of root directory and inside the `src` folder, 
