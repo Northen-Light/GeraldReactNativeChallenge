@@ -1,5 +1,5 @@
 import {
-  Dimensions, Platform,
+  Dimensions,
   StyleSheet,
   Text,
   TouchableOpacity,
@@ -133,23 +133,6 @@ const UnderLine = () => {
   return <View style={styles.underLine} />;
 };
 
-export const Header = ({
-  headerText,
-  onPress,
-}: {
-  headerText: string;
-  onPress: any;
-}) => {
-  return (
-    <View style={styles.headerContainer}>
-      <TouchableOpacity onPress={onPress}>
-        <Text style={styles.menuIcon}>☰</Text>
-      </TouchableOpacity>
-      <Text style={styles.headerText}>{headerText}</Text>
-    </View>
-  );
-};
-
 const styles = StyleSheet.create({
   rootContainer: {
     width: '100%',
@@ -201,20 +184,5 @@ const styles = StyleSheet.create({
     marginTop: 50,
     opacity: 0.5,
     backgroundColor: 'white',
-  },
-  headerContainer: {
-    gap: 24,
-    margin: 24,
-    opacity: 0.5,
-    marginTop: Platform.OS === 'android' ? 20 : 80,
-    position: 'absolute',
-    flexDirection: 'row',
-    alignItems: 'baseline',
-  },
-  menuIcon: {
-    fontSize: 32,
-  },
-  headerText: {
-    fontSize: 24,
   },
 });

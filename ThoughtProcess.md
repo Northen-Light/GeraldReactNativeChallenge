@@ -28,17 +28,18 @@ I have designed the UI hierarchy of the application to like something like this:
 ``` 
 Tab Navigator
   - HomeRootStack
-     - Start Screen with drawer menu
-     - Your Cart Screen with drawer menu
-     - Favorites Screen with drawer menu
-     - Your Orders Screen with drawer menu
-     - Sign Out Screen with drawer menu
+     - Start Screen 
+     - Your Cart Screen
+     - Favorites Screen
+     - Your Orders Screen
+     - Sign Out Screen
   - Contact Screen
 ```
+Each screen of the HomeRootStack has a DrawerMenu attached to it. The DrawerMenu is a reusable component
 
 Used typescript for the development of the application and code hierarchy is pretty simple
 and easy to understand. UI code lies in `src` folder of root directory and inside the `src` folder, 
-there are two folders named :
+there are two folders, which are as follows :
 1. `components` - This folder contains all the reusable components used in the application like DrawerMenu, 
    Header, etc.
 2. `screens` - This folder contains all the screens of the application.

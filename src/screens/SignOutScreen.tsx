@@ -3,8 +3,8 @@ import * as React from 'react';
 import DrawerMenuProvider, {
   DrawerMenuContext,
   DrawerMenuContextType,
-  Header,
 } from '../components/DrawerMenuProvider.tsx';
+import {Header} from '../components/Header.tsx';
 import {SCREEN_NAMES} from '../HomeRootStack.tsx';
 
 const SignOutScreen = () => {

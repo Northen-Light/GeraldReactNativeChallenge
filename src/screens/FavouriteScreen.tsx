@@ -3,9 +3,9 @@ import * as React from 'react';
 import DrawerMenuProvider, {
   DrawerMenuContext,
   DrawerMenuContextType,
-  Header,
 } from '../components/DrawerMenuProvider.tsx';
 import {SCREEN_NAMES} from '../HomeRootStack.tsx';
+import {Header} from '../components/Header.tsx';
 
 const FavouriteScreen = () => {
   const {onMenuButtonPress} =
