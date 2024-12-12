@@ -1,4 +1,4 @@
->Please check ThoughtProcess.md present in the root directory for the thought process and decisions made during the development of this project.\
+>Please check THOUGHT_PROCESS.md present in the root directory for the thought process and decisions made during the development of this project.\
 >Steps to run the project are exactly same as mentioned in the below.
 
 This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).

@@ -24,7 +24,7 @@ with the following features:
 4. The Drawer menu opens with an animation as mentioned in the problem statement.
 
 # Solution
-I have designed the UI hierarchy of the application to like something like this:
+I have kept the UI hierarchy of the application to like something like this:
 ``` 
 Tab Navigator
   - HomeRootStack
@@ -40,7 +40,7 @@ Each screen of the HomeRootStack has a DrawerMenu attached to it. The DrawerMenu
 Used typescript for the development of the application and code hierarchy is pretty simple
 and easy to understand. UI code lies in `src` folder of root directory and inside the `src` folder, 
 there are two folders, which are as follows :
-1. `components` - This folder contains all the reusable components used in the application like DrawerMenu, 
+1. `components` - This folder contains all the reusable components used in the application like DrawerMenuProvider, 
    Header, etc.
 2. `screens` - This folder contains all the screens of the application.
 
