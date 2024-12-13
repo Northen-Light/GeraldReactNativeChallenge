@@ -1,7 +1,7 @@
-Candidate Name: Prateek Patnaik
+Author: Prateek Patnaik
 
-
-# Problem Statement
+Problem link : https://geraldtech.notion.site/Frontend-Mobile-Developer-39041bcc5a0a4eb79963dae2516970ce?pvs=74
+# Problem Statement :
 As per my understanding of the problem statement, we have to create a simple React Native application 
 with the following features:
 
